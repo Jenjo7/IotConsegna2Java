@@ -61,7 +61,7 @@ public class RecivedImpl extends Thread implements Recived {
                     e.printStackTrace();
                 }
                 try {
-                    Thread.sleep(300);
+                    Thread.sleep(100);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
