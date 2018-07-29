@@ -20,6 +20,7 @@ public class CarSystemModel implements CarSystem {
     public CarSystemModel(final CommChannel channel) {
         this.channel = channel;
         this.recived = new RecivedImpl(channel);
+        this.recived.start();
     }
 
     private Stream<CommandImpl> handleSteam() {
