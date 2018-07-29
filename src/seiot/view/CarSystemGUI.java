@@ -59,7 +59,7 @@ public class CarSystemGUI extends JFrame implements CarSystemView {
 
     @Override
     public void start() {
-        this.getContentPane().setVisible(true);
+        this.setVisible(true);
     }
 
     @Override
