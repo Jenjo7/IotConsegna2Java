@@ -6,9 +6,14 @@ package seiot.model;
 public interface Recived {
 
     /**
-     * Return info recived by MCU.
+     * it returns info recived by MCU.
      * @return
      */
     public String getInfo();
+    
+    /**
+     * It starts the thread which communicates with MCU.
+     */
+    public void start();
 
 }
