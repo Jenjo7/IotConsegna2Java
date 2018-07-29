@@ -12,6 +12,7 @@ public interface CarSystemView {
      * @param String info
      */
     public void setDisplay(String info);
+    
 
     /**
      * Set visible the GUI and, eventually, can start some threads.
