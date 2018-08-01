@@ -38,7 +38,7 @@ public class RecivedImpl extends Thread implements Recived {
     private final static Map<String, String> MAP = Arrays.asList(Words.values())        //collezione tutti i valori di Words in un Array,
                                                          .stream()                      //ne genero lo stream,
                                                          .collect(Collectors.toMap(     //colleziono tutte le parole utili in una mappa,
-                                                                     Words::getKey,     //nel quale come chiave il valore key,
+                                                                     Words::getKey,     //nel quale uso come chiave il valore key,
                                                                      Words::getValue)); //e value come valore.
     
     public RecivedImpl(final CommChannel channel) {

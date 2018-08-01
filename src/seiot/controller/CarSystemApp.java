@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.swing.SwingUtilities;
 
+import seiot.model.CarSystem;
 import seiot.model.CarSystemModel;
 import seiot.modulo_lab_2_2.msg.CommChannel;
 import seiot.modulo_lab_2_2.msg.SerialCommChannel;
@@ -16,7 +17,7 @@ import seiot.view.CarSystemView;
  */
 public class CarSystemApp implements CarSystemViewObserver {
 
-    private CarSystemModel m;
+    private CarSystem m;
     private CarSystemView gui;
     private Agent agent;
     
