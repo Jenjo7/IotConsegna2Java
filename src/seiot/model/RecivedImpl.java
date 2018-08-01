@@ -14,7 +14,8 @@ public class RecivedImpl extends Thread implements Recived {
         OK("O", "Ok can stop"), 
         TOUCH("T", "Touching"), 
         FAR("F", "Too far"), 
-        FINISH("K", "Ok");
+        FINISH("K", "Ok"),
+        FORCECLOSE("G", "Close");
         
         private String key;
         private String value;
